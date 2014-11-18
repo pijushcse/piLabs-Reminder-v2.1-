@@ -64,7 +64,7 @@ public class RepeatAlarm extends javax.swing.JFrame {
         popup.setFont(new Font("Verdana", Font.ITALIC, 12)); 
         MenuItem quit = new MenuItem("Exit");
         quit.addActionListener(exitListener);        
-        MenuItem restore = new MenuItem("Open Reminder");
+        MenuItem restore = new MenuItem("display Reminder");
         restore.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 setVisible(true);
